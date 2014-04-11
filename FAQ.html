@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Frequently Asked Questions</title>
+    <script src="assets/libs/min/modernizr.min.js"></script>
+    <meta name="viewport" content="width: device-width;initial-scale=1" />
+    <link href="assets/css/styles.css" rel="stylesheet" />
+
+
+</head>
+
+<body onload="hideItems('dd','subMenu')">
+<div id="page">
+<header>
+    <h1><a href="assets/images/arrow-media-logo.png"><span>Arrow Media</span></a></h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="process.html">Process</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="technology.html">Technology</a></li>
+            <li><a href="showcase/showcase.html">Showcase</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<div id="content">
+    <section class="slideshow" data-cycle-fx="slideshow">
+        <img src="assets/images/slideshow/php-development-slide_3.jpg" alt="Arrow Media PHP Development" />
+        <img src="assets/images/slideshow/php-development-slide_5.jpg" alt="Arrow Media PHP Development" />
+        <img src="assets/images/slideshow/php-development-slide_2.jpg" alt="Arrow Media PHP Development" />
+    </section>
+
+    <h2>Frequently Asked Questions</h2>
+    <dl>
+        <dt><a href="#" onclick="return showItem('answer')">What happens in the initial stages of a project?</a></dt>
+        <dd class="subMenu" id="answer">Answer</dd>
+
+        <dt><a href="#" onclick="return showItem('answer1')">How often will information about the projects progress be discussed?</a></dt>
+        <dd  class="subMenu" id="answer1">Answer</dd>
+
+        <dt><a href="#" onclick="return showItem('answer2')">Who do we contact within the company if we have a question?</a></dt>
+        <dd class="subMenu" id="answer2">Answer</dd>
+
+        <dt><a href="#" onclick="return showItem('answer3')">How much does a typical project cost?</a></dt>
+        <dd class="subMenu" id="answer3">Answer</dd>
+
+        <dt><a href="#" onclick="return showItem('answer4')">How long does a typical project take to complete?</a></dt>
+        <dd class="subMenu" id="answer4">Answer</dd>
+
+        <dt><a href="#" onclick="return showItem('answer5')">What are the payment terms?</a></dt>
+        <dd class="subMenu" id="answer5">Answer</dd>
+
+        <dt><a href="#" onclick="return showItem('answer6')">What happens after the project is completed?</a></dt>
+        <dd class="subMenu" id="answer6">Answer</dd>
+
+    </dl>
+
+
+</div>
+<footer>
+    <nav>
+        <ul>
+            <li><a href="FAQ.html"><abbr title="Frequently Asked Questions">FAQ</abbr></a></li>
+            <li><a href="terms.html">Terms</a></li>
+        </ul>
+    </nav>
+</footer>
+</div>
+
+<script src="assets/libs/min/jquery.min.js"></script>
+<script src="assets/js/min/jquery.cycle2.min.js"></script>
+<script src="assets/js/min/scripts.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $('.slideshow').cycle();
+    })
+</script>
+
+
+
+</body>
+</html>

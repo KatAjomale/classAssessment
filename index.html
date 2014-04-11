@@ -1,9 +1,144 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <meta charset="UTF-8" />
+    <title>Welcome to Arrow Media</title>
+    <script src="assets/libs/min/modernizr.min.js"></script>
+    <meta name="viewport" content="width: device-width;initial-scale=1" />
+    <link href="assets/css/styles.css" rel="stylesheet" />
+
 </head>
+
 <body>
+<div id="page">
+<header>
+    <h1><a href="assets/images/arrow-media-logo.png"><span>Arrow Media</span></a></h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="process.html">Process</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="technology.html">Technology</a></li>
+            <li><a href="showcase/showcase.html">Showcase</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div id="content">
+    <section class="slideshow" data-cycle-fx="slideshow">
+        <img src="assets/images/slideshow/php-development-slide_2.jpg" alt="Arrow Media PHP Development" />
+        <img src="assets/images/slideshow/php-development-slide_3.jpg" alt="Arrow Media PHP Development" />
+        <img src="assets/images/slideshow/php-development-slide_4.jpg" alt="Arrow Media PHP Development" />
+    </section>
+
+    <section class="top">
+        <h2>Welcome to Arrow Media</h2>
+            <p>Established in 1999, Arrow Media has been a driving force behind adoption of the Web by businesses of all sizes.
+                Whether you require a simple content managed web site or a complex hybrid cloud solution; Arrow Media delivers.
+                We believe that great people make great solutions and they bring excellence to everything they do. For this reason,
+                Arrow Media involve all stakeholders at every stage of the development process.
+            </p>
+            <p>What makes Arrow Media stand out from the competition is our focus on personally deal with every aspect of a project.
+                From concept and request for proposal through to full deployment, support and maintenance we are involved at every step.
+                We think that Agile and Continuous Integration methodologies reflect the best practices for collaborating expert technical,
+                domain and content expertise.
+            </p>
+            <p>Customers loyalty and referral rates are second to none and this is due to the quality and level of our service.
+                <a href="profile.html">Our Mission &raquo;</a>
+            </p>
+    </section>
+
+
+        <h2>Latest Projects</h2>
+
+        <section class="threecolumn">
+            <div class="column one">
+                <h3>Bon Ami Lewes</h3>
+                    <p><img src="assets/images/showcasepage/bon-ami-1.png" alt="Bon Ami Lewes" /></p>
+                    <p>Magento based e-commerce solution for local small business based in Lewes, East Sussex.</p>
+                    <p><a href="showcase/Wordpress.html" title="Bon Ami Lewes Project Details">Read more &raquo;</a></p>
+            </div>
+
+        <div class="column two">
+            <h3>Arrow Photography</h3>
+            <p><img src="assets/images/showcasepage/arrow-photo-1.png" alt="Arrow Photography" /></p>
+            <p>Drupal based, awarding photographer based in South East England. The brief was to produce a SaaS based system
+                to promote and maintain customer relations.
+            </p>
+            <p><a href="showcase/Wordpress.html" title="Arrow Photography Project Details">Read more &raquo;</a></p>
+        </div>
+
+        <div class="column three">
+            <h3>Portfolio</h3>
+            <p><img src="assets/images/showcasepage/potfolio-1.png" alt="Portfolio" /></p>
+            <p>Modx based, innovative product based in South East England. The brief was to produce a SaaS based system to
+                promote and maintain customer relations.
+            </p>
+            <p><a href="showcase/Wordpress.html" title="Portfolio Project Details">Read more &raquo;</a></p>
+        </div>
+    </section>
+
+
+      <h2>Latest News</h2>
+        <section class="twoColumn">
+        <div class="column one">
+            <h3>The Pillars of cloudiness</h3>
+                <p><img src="assets/images/homepage/hybrid_1.png" alt="Pillars of Cloudiness" class="blue"/></p>
+                <p>The five pillars of cloudiness includes:</p>
+                    <ul>
+                        <li>Parallel computing</li>
+                        <li>Modular design</li>
+                        <li>Horizontal scaling</li>
+                        <li>Agility returns</li>
+                        <li>Security</li>
+                    </ul>
+
+                <p><a href="http://www.rackspace.co.uk" title="Pillars of Cloudiness">Read more &raquo;</a></p>
+            </div>
+
+        <div class="column two">
+            <h3>PHPStorm builds upon its success</h3>
+            <p><img src="assets/images/homepage/phpstorm_1.png" alt="Jetbrains PHPStorm" class="blue"/></p>
+            <p>All the cutting edge front-end technologies are supported, including HTML5, CSS, Sass, SCSS, Less, Stylus,
+                Compass, CoffeeScript, TypeScript, ECMAScript Harmony, Jade, Emmet, and of course JavaScript, with re-factorings,
+                debugging and unit-testing.
+            </p>
+            <p><a href="http://www.jetbrains.com" title="Jetbrains PHPStorm">Read more &raquo;</a></p>
+        </div>
+    </section>
+
+    <section class="fourcolumn logos">
+        <img src="assets/images/profilepage/promo_1.png" alt="Philips Development" />
+        <img src="assets/images/profilepage/promo_2.png" alt="Toyota Development" />
+        <img src="assets/images/profilepage/promo_3.png" alt="Adidas Development" />
+        <img src="assets/images/profilepage/promo_4.png" alt="Expedia Development" />
+    </section>
+
+
+
+    </div>
+<footer>
+    <nav>
+        <ul>
+            <li><a href="FAQ.html"><abbr title="Frequently Asked Questions">FAQ</abbr></a></li>
+            <li><a href="terms.html">Terms</a></li>
+        </ul>
+    </nav>
+</footer>
+<!--add a copyright to the footer section-->
+
+</div>
+
+<script src="assets/libs/min/jquery.min.js"></script>
+<script src="assets/js/min/jquery.cycle2.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $('.slideshow').cycle();
+    })
+</script>
 
 </body>
 </html>

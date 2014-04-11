@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Arrow Media Technology</title>
+    <script src="assets/libs/min/modernizr.min.js"></script>
+    <meta name="viewport" content="width: device-width;initial-scale=1" />
+    <link href="assets/css/styles.css" rel="stylesheet" />
+
+    <style>
+        @media(min-width: 481px){
+        .tech{
+        height: 225px;
+        }
+        }
+    </style>
+</head>
+
+<body>
+<div id="page">
+<header>
+    <h1><a href="assets/images/arrow-media-logo.png"><span>Arrow Media</span></a></h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="process.html">Process</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="technology.html">Technology</a></li>
+            <li><a href="showcase/showcase.html">Showcase</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<div id="content">
+    <section class="slideshow" data-cycle-fx="slideshow">
+        <img src="assets/images/slideshow/php-development-slide_6.jpg" alt="Arrow Media PHP Development" />
+        <img src="assets/images/slideshow/php-development-slide_2.jpg" alt="Arrow Media PHP Development" />
+        <img src="assets/images/slideshow/php-development-slide_3.jpg" alt="Arrow Media PHP Development" />
+    </section>
+
+    <section class="threecolumn">
+        <h2>Technologies</h2>
+
+
+        <div class="column one">
+            <h3>Production Environments</h3>
+            <ul>
+                <li>Linux (Ubuntu, CentOS/Redhat)</li>
+                <li>AMPP (Apache, MySQL, PHP and Perl)</li>
+                <li>MongoDB</li>
+                <li>NodeJS</li>
+                <li>Nova (OpenStack)</li>
+                <li>PHPUnit (TDD)</li>
+                <li>Behat / Mint (BDD)</li>
+                <li>Jenkins / Hudson (CI)</li>
+            </ul>
+        </div>
+
+        <div class="column two">
+            <h3>Server-side Languages</h3>
+            <ul>
+                <li>PHP5 current development</li>
+                <li>PHP4 legacy development</li>
+            </ul>
+        </div>
+
+        <div class="column three">
+            <h3>Front-end Languages</h3>
+            <ul>
+                <li>HTML Version 5 Development</li>
+                <li>XHTML Legacy</li>
+                <li>CSS</li>
+                <li>LESS preprocessing</li>
+                <li>SASS preprocessing</li>
+                <li>ECMAScript</li>
+                <li>Coffee Script</li>
+                <li>jQuery</li>
+                <li>Smarty</li>
+                <li>Sencha</li>
+                <li>Twitter Bootstrap</li>
+                <li>Zurb Foundation</li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section class="small logos">
+        <p><img src="assets/images/technologypage/technology-1-1.png" alt="AJAX" />
+            <img src="assets/images/technologypage/technology-1-2.png" alt="Backbone JS" />
+            <img src="assets/images/technologypage/technology-1-3.png" alt="jQuery" />
+            <img src="assets/images/technologypage/technology-1-4.png" alt="Sencha" />
+            <img src="assets/images/technologypage/technology-1-7.png" alt="Git" />
+            <img src="assets/images/technologypage/technology-1-8.png" alt="MySQL" />
+        </p>
+    </section>
+
+    <section class="threecolumn tech">
+
+        <div class="column one">
+            <h3>Content Management Systems</h3>
+            <ul>
+                <li>Drupal</li>
+                <li>Wordpress</li>
+                <li>Modx</li>
+
+            </ul>
+        </div>
+
+        <div class="column two">
+            <h3>E-Commerce Solutions</h3>
+            <ul>
+                <li>Magento</li>
+                <li>OSCommerce</li>
+                <li>PayPal integration</li>
+                <li>CardSave and other gateway integrations</li>
+            </ul>
+        </div>
+
+        <div class="column three">
+            <h3>Business Logic</h3>
+            <ul>
+                <li>Zend Framework</li>
+                <li>Laravel/Artisan</li>
+                <li>CodeIgniter</li>
+                <li>Pear</li>
+                <li>Composer</li>
+                <li>Compass</li>
+                <li>Phalcon</li>
+
+            </ul>
+        </div>
+    </section>
+
+    <section class="small logos">
+        <p><img src="assets/images/technologypage/technology-2-1.png" alt="TWIG" />
+            <img src="assets/images/technologypage/technology-2-2.png" alt="Zend Framework" />
+            <img src="assets/images/technologypage/technology-2-3.png" alt="Symfony" />
+            <img src="assets/images/technologypage/technology-2-4.png" alt="CodeIgniter" />
+            <img src="assets/images/technologypage/technology-2-7.png" alt="MongoDB" />
+            <img src="assets/images/technologypage/technology-2-8.png" alt="SQLite" />
+        </p>
+    </section>
+</div>
+
+<footer>
+    <nav>
+        <ul>
+            <li><a href="FAQ.html"><abbr title="Frequently Asked Questions">FAQ</abbr></a></li>
+            <li><a href="terms.html">Terms</a></li>
+        </ul>
+    </nav>
+</footer>
+
+</div>
+
+
+<script src="assets/libs/min/jquery.min.js"></script>
+<script src="assets/js/min/jquery.cycle2.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $('.slideshow').cycle();
+    })
+</script>
+
+</body>
+</html>

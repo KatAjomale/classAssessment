@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Arrow Media Showcase</title>
+    <script src="../assets/libs/min/modernizr.min.js"></script>
+    <meta name="viewport" content="width: device-width;initial-scale=1" />
+    <link href="../assets/css/styles.css" rel="stylesheet" />
+    <link href="../assets/css/prettyPhoto.css" rel="stylesheet" media="screen"/>
+
+    <style>
+        .showcase h3{
+            text-align: center;
+        }
+        .showcase div.column p{
+                text-align: center;
+            }
+
+    </style>
+</head>
+
+<body>
+<div id="page">
+<header>
+    <h1><a href="../assets/images/arrow-media-logo.png"><span>Arrow Media</span></a></h1>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../profile.html">Profile</a></li>
+            <li><a href="../process.html">Process</a></li>
+            <li><a href="../services.html">Services</a></li>
+            <li><a href="../technology.html">Technology</a></li>
+            <li><a href="showcase.html">Showcase</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<div id="content">
+<!--make showcase pages for the rest of the showcases (Wordpress had been completed), and link to them from the text here-->
+    <h2>Showcase</h2>
+    <section class="twoColumn showcase">
+        <div class="column one">
+    <h3>Content managed systems</h3>
+
+        <p><a href="../assets/images/showcasepage/showcase-4.png" title="Showcase Drupal System" rel="prettyPhoto[top]"><img src="../assets/images/showcasepage/showcase-4.png" alt="Drupal Content Management" /></a></p>
+    <p><a href="#">Drupal Content Management System</a></p>
+
+        <p><a href="../assets/images/showcasepage/showcase-6.png" title="Showcase Modx System" rel="prettyPhoto[top]"><img src="../assets/images/showcasepage/showcase-6.png" alt="Modx Content Management" /></a></p>
+    <p><a href="#">Modx Content Management System</a></p>
+
+        <p><a href="../assets/images/showcasepage/showcase-8.png" title="Showcase Wordpress System" rel="prettyPhoto[top]"><img src="../assets/images/showcasepage/showcase-8.png" alt="Wordpress Content Management" /></a></p>
+    <p><a href="Wordpress.html">Wordpress Content Management System</a></p>
+
+        <p><a href="../assets/images/showcasepage/showcase-3.png" title="Showcase CMS Bespoke System" rel="prettyPhoto[top]"><img src="../assets/images/showcasepage/showcase-3.png" alt="Bespoke Content Management" /></a></p>
+    <p><a href="#">Bespoke Content Management System</a></p>
+
+    </div>
+
+    <div class="column two">
+    <h3>E-commerce solutions</h3>
+
+        <p><a href="../assets/images/showcasepage/showcase-2.png" title="Showcase Shopify System" rel="prettyPhoto[top]"><img src="../assets/images/showcasepage/showcase-2.png" alt="Shopify" /></a></p>
+    <p><a href="#">Shopify e-Commerce Solution</a></p>
+
+        <p><a href="../assets/images/showcasepage/showcase-5.png" title="Showcase Magento System" rel="prettyPhoto[top]"><img src="../assets/images/showcasepage/showcase-5.png" alt="Magento" /></a></p>
+    <p><a href="#">Magento e-Commerce Solution</a></p>
+
+        <p><a href="../assets/images/showcasepage/showcase-7.png" title="Showcase OSCommerce System" rel="prettyPhoto[top]"><img src="../assets/images/showcasepage/showcase-7.png" alt="OSCommerce" /></a></p>
+    <p><a href="#">OSCommerce Solution</a></p>
+
+        <p><a href="../assets/images/showcasepage/showcase-1.png" title="Showcase E-Commerce Bespoke System" rel="prettyPhoto[top]"><img src="../assets/images/showcasepage/showcase-1.png" alt="Bespoke System" /></a></p>
+    <p><a href="#">Bespoke e-Commerce Solution</a></p>
+    </div>
+</section>
+</div>
+    <footer>
+    <nav>
+        <ul>
+            <li><a href="../FAQ.html"><abbr title="Frequently Asked Questions">FAQ</abbr></a></li>
+            <li><a href="../terms.html">Terms</a></li>
+        </ul>
+    </nav>
+</footer>
+
+</div>
+
+<script src="../assets/libs/min/jquery.min.js"></script>
+<script src="../assets/js/min/jquery.prettyPhoto.js"></script>
+<script>
+    $(document).ready(function(){
+        $('a[rel^="prettyPhoto"]').prettyPhoto({
+            theme:'dark_square'
+
+        });
+        $('.pp_content_container').click(function(){
+            $(this).prettyPhoto.close();
+        })
+
+    })
+
+</script>
+
+</body>
+</html>

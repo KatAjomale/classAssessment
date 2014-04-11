@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Showcase</title>
+    <script src="../assets/libs/min/modernizr.min.js"></script>
+    <meta name="viewport" content="width: device-width;initial-scale=1" />
+    <link href="../assets/css/styles.css" rel="stylesheet" />
+
+
+    <style>
+        p img{
+            width: 100%;
+        }
+        .thumbnail{
+            width: 30%;
+        }
+    </style>
+</head>
+
+<body onload="hideItems('p','hidden')">
+<div id="page">
+<header>
+    <h1><a href="../assets/images/arrow-media-logo.png"><span>Arrow Media</span></a></h1>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../profile.html">Profile</a></li>
+            <li><a href="../process.html">Process</a></li>
+            <li><a href="../services.html">Services</a></li>
+            <li><a href="../technology.html">Technology</a></li>
+            <li><a href="showcase.html">Showcase</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<div id="content">
+
+    <h2>Showcase</h2>
+    <h3>Wordpress - Content managed systems</h3>
+    <section class="top wordpress">
+        <p><a href="Wordpress.html" title="Showcase Wordpress System"><img src="../assets/images/showcasepage/showcase-8.png" alt="Wordpress Content Management" /></a></p>
+    </section>
+
+    <section class="showcase">
+        <!--add text to give information about each showcase image-->
+        <p class="thumbnail">
+            <a href="#" onclick="showItem('gall')" title="Showcase Wordpress System">
+                <img src="../assets/images/showcasepage/bon-ami-1-sml.png" alt="Wordpress Content Management" /></a></p>
+
+        <p class="hidden" id="gall">
+            <img src="../assets/images/showcasepage/bon-ami-1.png" alt="Bon Ami Lewes" />
+        </p>
+
+        <p class="thumbnail">
+            <a href="#" onclick="showItem('gall1')" title="Showcase Wordpress System">
+                <img src="../assets/images/showcasepage/potfolio-1-sml.png" alt="Wordpress Content Management" /></a></p>
+
+        <p class="hidden" id="gall1">
+            <img src="../assets/images/showcasepage/potfolio-1.png" alt="Potfolio" />
+        </p>
+
+
+        <p class="thumbnail">
+            <a href="#" onclick="showItem('gall2')" title="Showcase Wordpress System">
+                <img src="../assets/images/showcasepage/arrow-photo-1-sml.png" alt="Wordpress Content Management" /></a></p>
+
+        <p class="hidden" id="gall2">
+            <img src="../assets/images/showcasepage/arrow-photo-1.png" alt="Lisa Beaney Photography" />
+        </p>
+
+
+   </section>
+</div>
+
+<footer>
+    <nav>
+        <ul>
+            <li><a href="../FAQ.html"><abbr title="Frequently Asked Questions">FAQ</abbr></a></li>
+            <li><a href="../terms.html">Terms</a></li>
+        </ul>
+    </nav>
+</footer>
+
+</div>
+
+<script src="../assets/js/min/scripts.js"></script>
+
+</body>
+</html>
